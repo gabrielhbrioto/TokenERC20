@@ -1,0 +1,20 @@
+{
+  "name": "tokenerc20",
+  "version": "1.0.0",
+  "description": "Meu token ERC20",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test"
+  },
+  "keywords": [
+    "blockchain",
+    "ethereum",
+    "erc20",
+    "token"
+  ],
+  "author": "Gabriel Henrique Brioto",
+  "license": "ISC"
+}
