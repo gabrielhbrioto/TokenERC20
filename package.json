@@ -7,7 +7,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "truffle test"
+    "test": "truffle test",
+    "migrate": "truffle migrate"
   },
   "keywords": [
     "blockchain",
@@ -16,5 +17,10 @@
     "token"
   ],
   "author": "Gabriel Henrique Brioto",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@truffle/hdwallet-provider": "^2.1.15",
+    "ganache-cli": "^6.12.2",
+    "truffle": "^5.11.5"
+  }
 }
