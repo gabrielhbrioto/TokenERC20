@@ -189,7 +189,7 @@
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.8.0;\n\ninterface ERC20 {\n\n    function totalSupply() external pure returns (uint); \n    function balanceOf(address tokenOwner) external view returns (uint balance); \n    function allowance(address tokenowner, address spender) external view returns (uint remaining); \n    function transfer(address to, uint tokens) external returns (bool success); \n    function approve(address spender, uint tokens) external returns (bool success); \n    function transferFrom(address from, uint tokens) external returns (bool success);\n\n    event Transfer(address indexed from, address indexed to, uint tokens); \n    event Approval (address indexed tokenOwner, address indexed spender, uint tokens);\n\n}",
-  "sourcePath": "/home/gabriel/Área de Trabalho/Moeda U$P/Token7/contracts/erc20.sol",
+  "sourcePath": "/home/gabriel/TokenERC20/contracts/erc20.sol",
   "ast": {
     "absolutePath": "project:/contracts/erc20.sol",
     "exportedSymbols": {
@@ -1028,8 +1028,8 @@
     "version": "0.8.17+commit.8df45f5f.Emscripten.clang"
   },
   "networks": {},
-  "schemaVersion": "3.4.10",
-  "updatedAt": "2023-10-24T16:51:22.526Z",
+  "schemaVersion": "3.4.16",
+  "updatedAt": "2024-09-11T23:40:31.143Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},
