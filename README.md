@@ -22,7 +22,7 @@ Siga os passos abaixo para configurar o ambiente de desenvolvimento:
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/gabrielhbrioto/TokenERC20.git
    ```
 
 2. Acesse o diretório do projeto:
